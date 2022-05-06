@@ -9,5 +9,18 @@ package javaapplication10;
  * @author kevin
  */
 public class Kevin_Torres {
-    
+    public class Vehiculo {
+    protected String marca;
+    protected String color;
+    protected int anio;
+    protected int nLLantas;
+
+    public Vehiculo(String marca, String color, int anio, int nLLantas){
+        this.marca = marca;
+        this.color = color;
+        this.anio = anio;
+        this.nLLantas = nLLantas;
+
+    }
+}
 }
