@@ -7,6 +7,8 @@ public class Melvin_Lopez {
     public vehiculoCamioneta(String marca, String color, int anio, int nLLantas) {
         super(marca, color, anio, nLLantas);
     }
-    
+    public int getnPuertas() {
+        return nPuertas;
+    }
     }
 }
