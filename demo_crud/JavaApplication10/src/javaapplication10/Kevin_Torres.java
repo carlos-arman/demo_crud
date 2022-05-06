@@ -22,5 +22,8 @@ public class Kevin_Torres {
         this.nLLantas = nLLantas;
 
     }
+    public String getmarca(){
+        return marca;
+    }
 }
 }
