@@ -25,5 +25,8 @@ public class Kevin_Torres {
     public String getmarca(){
         return marca;
     }
+    public String getcolor(){
+        return color;
+    }
 }
 }
