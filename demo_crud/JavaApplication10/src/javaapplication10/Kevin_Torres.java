@@ -28,5 +28,17 @@ public class Kevin_Torres {
     public String getcolor(){
         return color;
     }
+     
+    public int getanio(){
+        return anio;
+    }
+    public int getnLLantas(){
+        return nLLantas;
+    }
+ 
+    public  String mostrarDatos(){
+        return "Marca: "+marca +"\nColor: "+color +"\nAño: "+ anio +"\nnumero LLantas: "+nLLantas;
+        
+    }
 }
 }
