@@ -10,5 +10,8 @@ public class Melvin_Lopez {
     public int getnPuertas() {
         return nPuertas;
     }
+     public void setnPuertas(int nPuertas) {
+        this.nPuertas = nPuertas;
+    }
     }
 }
